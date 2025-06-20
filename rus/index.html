@@ -41,26 +41,36 @@
         .download-btn:hover {
             background: #22863a;
         }
+        .button-row {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button-row > div {
+            background: #222;
+            padding: 20px 16px;
+            border-radius: 10px;
+            min-width: 120px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h2>Мои проекты</h2>
         <h2>Сделаные на пайтоне</h2>
-    </div>
-</body>
-<body>
-    <div class="container">
-        <h1>Скачать змейку (плохо сделана)</h1>
-        <h1>+ есть мультиплеер</h1>
-        <a href="files/Змейка 1.2 v4.zip" class="download-btn" download>Скачать</a>
-    </div>
-</body>
-<body>
-    <div class="container">
-        <h1>Скачать чат</h1>
-        <h1>тоже плохо сделан</h1>
-        <a href="files/chat.zip" class="download-btn" download>Скачать</a>
+    <div class="button-row">
+            <div>
+                <h1>Скачать змейку (плохо сделана)</h1>
+                <h1>+ есть мультиплеер</h1>
+                <a href="files/Змейка 1.2 v4.zip" class="download-btn" download>Скачать</a>
+            </div>
+            <div>
+                <h1>Скачать чат</h1>
+                <h1>тоже плохо сделан</h1>
+                <a href="files/chat.zip" class="download-btn" download>Скачать</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

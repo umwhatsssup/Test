@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мої тестові проєкти зроблені на пайтоні</title>
+    <title>My Test Projects Made On Python</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,26 +41,36 @@
         .download-btn:hover {
             background: #22863a;
         }
+        .button-row {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button-row > div {
+            background: #222;
+            padding: 20px 16px;
+            border-radius: 10px;
+            min-width: 120px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Мої проєкти</h2>
-        <h2>зроблені на пайтоні</h2>
-    </div>
-</body>
-<body>
-    <div class="container">
-        <h1>Скачати Змійку (Погано зроблена)</h1>
-        <h1>+ є мультиплеєр</h1>
-        <a href="files/Змійка 1.2 v4.zip" class="download-btn" download>Завантажити</a>
-    </div>
-</body>
-<body>
-    <div class="container">
-        <h1>Скачати Приватний Чат</h1>
-        <h1>(Декілька файлів + інструкція)</h1>
-        <a href="files/chat.zip" class="download-btn" download>Завантажити</a>
+        <h2>My Test Projects</h2>
+        <h2>Made On Python</h2>
+        <div class="button-row">
+            <div>
+                <h1>download snake game (Poorly made)</h1>
+                <h1>+ multiplayer</h1>
+                <a href="files/Змійка 1.2 v4.zip" class="download-btn" download>download</a>
+            </div>
+            <div>
+                <h1>download private chat</h1>
+                <h1>(Several files + instructions)</h1>
+                <a href="files/chat.zip" class="download-btn" download>download</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
