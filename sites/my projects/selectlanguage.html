@@ -36,11 +36,10 @@
             border-radius: 6px;
             font-size: 18px;
             cursor: pointer;
-            transition: background 0.2s, transform 0.2s;
+            transition: background 0.2s;
         }
         .download-btn:hover {
             background: #22863a;
-            transform: scale(1.08);
         }
         .button-row {
             display: flex;
@@ -53,36 +52,24 @@
             padding: 20px 16px;
             border-radius: 10px;
             min-width: 120px;
-            opacity: 0;
-            transform: translateY(30px);
-            animation: fadeInUp 1s forwards;
-        }
-        .button-row > div:nth-child(2) { animation-delay: 0.5s; }
-        .button-row > div:nth-child(3) { animation-delay: 1s; }
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Main Site</h2>
-        <h1>Choose what you need</h1>
+        <h2>Select language</h2>
         <div class="button-row">
             <div>
-                <h1>Site Creator Contacts</h1>
+                <h1>UA</h1>
                 <a href="ua/index.html" class="download-btn">Select</a>
             </div>
             <div>
-                <h1>Site Creator Youtube</h1>
-                <a href="youtube.com" class="download-btn">Select</a>
+                <h1>RU</h1>
+                <a href="ru/index.html" class="download-btn">Select</a>
             </div>
             <div>
-                <h1>Other</h1>
-                <a href="sites/sites.html" class="download-btn">Select</a>
+                <h1>ENG</h1>
+                <a href="en/index.html" class="download-btn">Select</a>
             </div>
         </div>
     </div>
